@@ -12,8 +12,8 @@ body {
 
 #kichwa {
     border-bottom: 1px solid #e7e7e7;
-    height: 200px;
-    background-color: #f2f3f3 !important;
+    height: 130px;
+    background-color: #ffffff !important;
     margin-bottom: 0px;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 #mainStuff {
-    background-color: #1b3a4f;
+    background-color:#01b3cd;
     overflow: hidden;
 
 
@@ -58,8 +58,8 @@ div.row.mainBox {
 }
 
 
-#rama img {
-    width: 320px;
+#doctor img {
+    width: 400px;
     z-index: 2000;
     margin-left: 20px;
 
