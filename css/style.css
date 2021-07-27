@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700|Open+Sans:300,400,600,700');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@400;500;900&display=swap');
 /**
-font-family: 'Cabin', sans-serif;
-font-family: 'Open Sans', sans-serif;
+
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
 **/
 
 body {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
 }
 
 
@@ -47,9 +49,6 @@ body {
     background-color:#01b3cd;
     overflow: hidden;
 
-
-
-
 }
 
 div.row.mainBox {
@@ -67,7 +66,7 @@ div.row.mainBox {
 
 #slogan h2 {
     color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 320%;
     font-weight: 400;
     text-align: center;
@@ -139,7 +138,7 @@ a#icon {
 
     #slogan h2 {
         color: #ffffff;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 220%;
         font-weight: 400;
         text-align: center;
