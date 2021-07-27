@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@400;500;900&display=swap');
+/**
+
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+**/
+
+body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+#kichwa {
+    border-bottom: 1px solid #e7e7e7;
+    height: 130px;
+    background-color: #ffffff !important;
+    margin-bottom: 0px;
+}
+
+.navbar-right {
+    margin-top: 25px;
+}
+
+.subhead img {
+    width: 100px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-weight: 300;
+    font-size: 16pt;
+    background-color: transparent !important;
+}
+
+.navbar-default .navbar-nav>li>a.highlight {
+    color: #d11819;
+}
+
+
+/* Main Stuff For Marketing */
+
+#notHere {
+    display: none;
+}
+
+#mainStuff {
+    background-color:#01b3cd;
+    overflow: hidden;
+
+}
+
+div.row.mainBox {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+#doctor img {
+    width: 400px;
+    z-index: 2000;
+    margin-left: 20px;
+
+}
+
+/**#slogan h2 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 320%;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+}**/
+
+
+
+#mockUp {
+    position: relative;
+    margin-top: 70px;
+}
+
+#mockUp h2{
+    position: relative;
+    margin-top: 70px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+
+
+#mockUp h2 span{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+#mockUp button {
+
+    color: #FFFFFF;
+    width: 250px;
+    line-height: 15px;
+    padding: 13px 16px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    /**margin: 0px auto 0px auto;**/
+    margin-top: 50px;
+    transition: all .5s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    border: 2px solid #FFFFFF;
+    background-color:#e64b1c;
+}
+
+#mockUp button:hover {
+    background-color:#297d99;
+    color:#ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+a#icon {
+    margin-right: 0px;
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    width: 50px;
+    font-size: 26pt;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2000000 !important;
+    border: 1px solid #f1f1f1;
+    background-color: #a71314;
+}
+
+
+
+/* Social Proof */
+#proofCont{
+
+background-color: #a71314;
+}
+
+div#socialProof {
+    background-color: #a71314;
+    }
+
+div#socialProof img{
+width: 80px;
+}
+
+
+
+/* Custom, iPhone Retina */
+
+
+@media only screen and (max-width : 480px) {
+
+    #rama img {
+        display: none;
+    }
+
+
+
+    #slogan h2 {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 220%;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #mockUp {
+        position: relative;
+        margin-top: 10px;
+    }
+
+
+    br.mobNone {
+        display: none;
+    }
+
+    #mockUp img {
+        width: 500px;
+    }
+
+
+
+
+}
