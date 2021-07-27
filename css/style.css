@@ -64,18 +64,42 @@ div.row.mainBox {
 
 }
 
-#slogan h2 {
+/**#slogan h2 {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 320%;
     font-weight: 400;
     text-align: center;
     margin-top: 100px;
+}**/
+
+
+
+#mockUp {
+    position: relative;
+    margin-top: 70px;
 }
 
-#slogan button {
-    display: block;
+#mockUp h2{
+    position: relative;
+    margin-top: 70px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: black;
     text-align: center;
+}
+
+
+#mockUp h2 span{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+#mockUp button {
+
     color: #FFFFFF;
     width: 250px;
     line-height: 15px;
@@ -85,30 +109,22 @@ div.row.mainBox {
     border-radius: 50px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    margin: 0px auto 0px auto;
+    /**margin: 0px auto 0px auto;**/
     margin-top: 50px;
     transition: all .5s ease;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     border: 2px solid #FFFFFF;
-    background-color: #007f05;
+    background-color:#e64b1c;
 }
 
-#slogan button:hover {
-    background-color: #003b59;
+#mockUp button:hover {
+    background-color:#297d99;
+    color:#ffffff;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
-
-#mockUp {
-    position: relative;
-    margin-top: 270px;
-}
-
-#mockUp img {
-    width: 800px;
-}
 
 a#icon {
     margin-right: 0px;
@@ -123,6 +139,23 @@ a#icon {
     border: 1px solid #f1f1f1;
     background-color: #a71314;
 }
+
+
+
+/* Social Proof */
+#proofCont{
+
+background-color: #a71314;
+}
+
+div#socialProof {
+    background-color: #a71314;
+    }
+
+div#socialProof img{
+width: 80px;
+}
+
 
 
 /* Custom, iPhone Retina */
