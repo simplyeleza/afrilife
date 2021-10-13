@@ -287,7 +287,9 @@ position: relative;
     text-align: center;
 }
 
-
+.googleMap{
+    padding: 0px;
+}
 
 /* Custom, iPhone Retina */
 
