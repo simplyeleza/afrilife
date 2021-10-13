@@ -146,6 +146,7 @@ a#icon {
 #proofCont{
 
 background-color: #a71314;
+padding: 20px;
 }
 
 div#socialProof {
@@ -156,7 +157,9 @@ div#socialProof img{
 width: 80px;
 }
 
-
+.proof span{
+    color: #ffffff;
+}
 
 /* Custom, iPhone Retina */
 
