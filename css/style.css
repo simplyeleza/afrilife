@@ -146,6 +146,7 @@ a#icon {
 #proofCont{
 
 background-color: #a71314;
+padding: 20px;
 }
 
 div#socialProof {
@@ -156,7 +157,139 @@ div#socialProof img{
 width: 80px;
 }
 
+.proof span{
+    color: #ffffff;
+}
 
+
+/* About us */
+
+#aboutUs{
+padding: 50px;
+}
+
+#aboutUs h2{
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+#aboutUs img{
+    width: 80%;
+}
+
+#aboutUs p{
+   margin-top: 50px; 
+}
+
+#aboutUs button{
+    color: #FFFFFF;
+    width: 250px;
+    line-height: 15px;
+    padding: 13px 16px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    /**margin: 0px auto 0px auto;**/
+    margin-top: 50px;
+    transition: all .5s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    border: 2px solid #FFFFFF;
+    background-color:#e64b1c;  
+}
+
+#aboutUs button:hover{
+    background-color:#297d99;
+    color:#ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+/* Why Us */
+#whyUs{
+padding: 30px;
+}
+
+.why{
+   
+    margin: 0px auto 0px auto;
+    border: 2px solid grey;
+    padding: 20px;
+    float:none;
+}
+
+
+.why h2{
+ text-align: center;
+}
+
+.why h2 span{
+    color:#e64b1c;
+   }
+
+.why h2 hr{
+    border-top: 2px solid #E64B1D;
+}   
+
+.why p{
+
+}
+
+
+/* Contact Us */
+
+#contactUs{
+position: relative;
+
+ background-color: #01b3cd;
+ padding: 20px;
+}
+
+.contacts{
+  
+    
+}
+
+.contacts h2{
+  
+    text-align: center;
+    margin: 50px;
+}
+
+.contact{
+    position: relative;
+    background-color: #ffffff;
+    height: 250px;
+    border: 2px solid #01b3cd;
+    padding: 0px;
+}
+
+
+.contact i{
+    position: absolute;
+    top: -10px;
+    left: -3px;
+   font-size: 30pt;
+   color: #e64b1c;
+   background-color:  #01b3cd;
+   padding: 5px;
+}
+.contact h3{
+ font-size: 150%;
+ text-align: center;
+}
+
+.contact p{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.googleMap{
+    padding: 0px;
+}
 
 /* Custom, iPhone Retina */
 
