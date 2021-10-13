@@ -161,6 +161,54 @@ width: 80px;
     color: #ffffff;
 }
 
+
+/* About us */
+
+#aboutUs{
+padding: 50px;
+}
+
+#aboutUs h2{
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+#aboutUs img{
+    width: 80%;
+}
+
+#aboutUs p{
+   margin-top: 50px; 
+}
+
+#aboutUs button{
+    color: #FFFFFF;
+    width: 250px;
+    line-height: 15px;
+    padding: 13px 16px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    /**margin: 0px auto 0px auto;**/
+    margin-top: 50px;
+    transition: all .5s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    border: 2px solid #FFFFFF;
+    background-color:#e64b1c;  
+}
+
+#aboutUs button:hover{
+    background-color:#297d99;
+    color:#ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+
 /* Custom, iPhone Retina */
 
 
