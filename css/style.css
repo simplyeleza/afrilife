@@ -208,6 +208,36 @@ padding: 50px;
 }
 
 
+/* Why Us */
+#whyUs{
+padding: 30px;
+}
+
+.why{
+   
+    margin: 0px auto 0px auto;
+    border: 2px solid grey;
+    padding: 20px;
+    float:none;
+}
+
+
+.why h2{
+ text-align: center;
+}
+
+.why h2 span{
+    color:#e64b1c;
+   }
+
+.why h2 hr{
+    border-top: 2px solid #E64B1D;
+}   
+
+.why p{
+
+}
+
 
 /* Custom, iPhone Retina */
 
