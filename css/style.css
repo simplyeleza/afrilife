@@ -239,6 +239,56 @@ padding: 30px;
 }
 
 
+/* Contact Us */
+
+#contactUs{
+position: relative;
+
+ background-color: #01b3cd;
+ padding: 20px;
+}
+
+.contacts{
+  
+    
+}
+
+.contacts h2{
+  
+    text-align: center;
+    margin: 50px;
+}
+
+.contact{
+    position: relative;
+    background-color: #ffffff;
+    height: 250px;
+    border: 2px solid #01b3cd;
+    padding: 0px;
+}
+
+
+.contact i{
+    position: absolute;
+    top: -10px;
+    left: -3px;
+   font-size: 30pt;
+   color: #e64b1c;
+   background-color:  #01b3cd;
+   padding: 5px;
+}
+.contact h3{
+ font-size: 150%;
+ text-align: center;
+}
+
+.contact p{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
 /* Custom, iPhone Retina */
 
 
