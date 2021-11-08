@@ -178,7 +178,8 @@ padding: 50px;
 }
 
 #aboutUs p{
-   margin-top: 50px; 
+   margin-top: 50px;
+   line-height: 2; 
 }
 
 #aboutUs button{
@@ -206,6 +207,31 @@ padding: 50px;
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+
+#aboutUs ul{
+   padding: 0px;
+}
+
+#aboutUs ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+  
+}
+
+#aboutUs ul li i{
+color:#01b3cd;
+cursor: pointer;
+}
+
+#aboutUs ul li i:hover{
+    color:#e64b1c;
+    margin-left: 5px;
+    transition: all .5s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    }
 
 
 /* Why Us */
