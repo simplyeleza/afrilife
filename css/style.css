@@ -265,7 +265,23 @@ padding: 30px;
 }
 
 
-/* Contact Us */
+/* Contact Us Refurbish */
+
+#contactUs{
+
+}
+
+div.contacts{
+border: 5px solid black;
+}
+
+div.contact{
+
+}
+
+
+
+/* Contact Us 
 
 #contactUs{
 position: relative;
@@ -311,7 +327,7 @@ position: relative;
 .contact p{
     margin-top: 50px;
     text-align: center;
-}
+} */
 
 .googleMap{
     padding: 0px;
