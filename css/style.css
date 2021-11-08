@@ -178,7 +178,7 @@ padding: 50px;
 }
 
 #aboutUs p{
-   margin-top: 50px;
+   margin-top: 0px;
    line-height: 2; 
 }
 
@@ -193,7 +193,7 @@ padding: 50px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     /**margin: 0px auto 0px auto;**/
-    margin-top: 50px;
+    margin-top: 5px;
     transition: all .5s ease;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
