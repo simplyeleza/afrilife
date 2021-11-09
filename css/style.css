@@ -268,14 +268,46 @@ padding: 30px;
 /* Contact Us Refurbish */
 
 #contactUs{
-
+    background-color: #01b3cd;
+    
 }
 
 div.contacts{
 border: 5px solid black;
+padding: 10px;
+
 }
 
 div.contact{
+
+}
+
+div.contact h3{
+    color: #00000;
+}
+
+
+div.contact ul{
+   
+    padding: 0px;
+   }
+
+div.contact li{
+list-style-type: none;
+ color: #00000;
+ margin-bottom: 5px;
+}
+
+div.contact button{
+    width: 200px;
+    height: 50px;
+    background-color: #e64b1c;
+    color: #ffffff;
+   }
+
+
+
+#contactUs button{
 
 }
 
