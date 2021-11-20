@@ -357,7 +357,7 @@ span.occupation{
 /* testimonials */
 
 #testimonials{
-border: 1px solid red;
+
 height: 500px;
 padding: 50px;
 }
@@ -367,13 +367,30 @@ padding: 50px;
 }
 
 
+#testimonials h3{
+  color: #000000;
+}
+
+
+#testimonials p{
+    color: #000000;
+}
+
 .carousel-inner{
-    border: 1px solid red;
-    background-color: red;
+    
+    background-color:#f9f9f9;
     height: 300px;
     padding: 20px;
 }
 
+
+.carousel-indicators .active{
+    background-color: yellow;
+}
+
+.carousel-indicators li{
+    background-color: #a71314;
+}
 
 /* Contact Us Refurbish */
 
