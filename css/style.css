@@ -249,6 +249,44 @@ cursor: pointer;
 padding: 30px;
 }
 
+.why{
+    border: 1px solid black;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    height: 200px;
+}
+
+
+.why p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.why ul li{
+    list-style-type:none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+}
+
+
+.why ul li i{
+    color:#01b3cd;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.why1{
+
+ background-image: url("images/whyOne.png");
+}
+
+.why2{
+
+}
+
 /*.why{
    
     margin: 0px auto 0px auto;
