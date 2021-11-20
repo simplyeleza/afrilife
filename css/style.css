@@ -367,6 +367,11 @@ padding: 50px;
 }
 
 
+.carousel-inner{
+    border: 1px solid red;
+    background-color: red;
+}
+
 
 /* Contact Us Refurbish */
 
