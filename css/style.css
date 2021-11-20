@@ -254,7 +254,7 @@ padding: 30px;
     margin-left: 50px;
     padding: 20px;
     border-radius: 5px;
-    height: 200px;
+    height: 300px;
 }
 
 
@@ -266,25 +266,30 @@ padding: 30px;
 
 .why ul li{
     list-style-type:none;
-    color: black;
+    color: #ffffff;
     font-family: 'Lato', sans-serif;
     margin-top: 10px;
+    font-weight: 900;
 }
 
 
 .why ul li i{
-    color:#01b3cd;
+    color:#ffffff;
     cursor: pointer;
     margin-right: 10px;
 }
 
 .why1{
 
- background-image: url("images/whyOne.png");
+ background-image: url("../images/whyOne.png");
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 .why2{
-
+    background-image: url("../images/whytwo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*.why{
