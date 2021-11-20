@@ -168,11 +168,12 @@ width: 80px;
 padding: 50px;
 }
 
+/**
 #aboutUs h2{
    text-align: left;
    margin-bottom: 50px;
    font-weight: 900;
-}
+} 
 
 #aboutUs h2 span{
   display: block;  
@@ -180,7 +181,7 @@ padding: 50px;
   height: 5px;
   background-color: #01b3cd;
   margin-top: 10px;
-}
+}**/
 
 #aboutUs img{
     width: 80%;
@@ -275,22 +276,82 @@ padding: 30px;
 
 
 
+/*  Afri headers */
+
+h2.afriheader{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+
+
+h2.afriheader span{
+    display: block;  
+   width: 90px;
+   height: 5px;
+   background-color: #01b3cd;
+   margin-top: 10px; 
+}
+
+
+
 /* Doctors */
-.doctor{
-  border: 1px solid grey;
+
+div #joshua{
+margin-left: 0px;
+}
+
+
+
+div.doctor{
+  border: 0.5px solid  #707070;
+  box-shadow: 5px 5px 5px grey;
   border-radius: 5px;
   margin:20px;
+  padding: 0px;
+  height: 350px;
+  cursor: pointer;
 }
 
+.doctor div{
+ background-color:#ffffff;
+ text-align: center;
+ border-radius: 5px;
+}
 .doctor img{
-  width: 150px;  
+
+  width: 150px;
+ 
 }
 
 
+.doctor h3#headDoc{
+  color: #01b3cd;
+}
+
+.doctor h3#headDoc span{
+    color:  #707070;
+  }
 
 
+.doctor h3{
+ font-size: 18px;
+ font-weight: 900;
+ text-align: center;
+}
 
 
+span.occupation{
+    font-size: 11px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.doctor p{
+ padding: 10px;
+ color: #707070;
+}
 
 /* Contact Us Refurbish */
 
