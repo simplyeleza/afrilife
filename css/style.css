@@ -357,7 +357,7 @@ span.occupation{
 /* testimonials */
 
 #testimonials{
-
+border: 1px solid red;
 }
 
 #testimonials img{
