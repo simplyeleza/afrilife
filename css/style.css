@@ -353,6 +353,19 @@ span.occupation{
  color: #707070;
 }
 
+
+/* testimonials */
+
+#testimonials{
+
+}
+
+#testimonials img{
+ width: 200px;
+}
+
+
+
 /* Contact Us Refurbish */
 
 #contactUs{
@@ -371,7 +384,7 @@ div.contact{
 }
 
 div.contact h3{
-    color: #00000;
+    color: #000000;
 }
 
 
@@ -382,7 +395,7 @@ div.contact ul{
 
 div.contact li{
 list-style-type: none;
- color: #00000;
+ color: #000000;
  margin-bottom: 5px;
 }
 
