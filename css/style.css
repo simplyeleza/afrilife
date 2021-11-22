@@ -446,8 +446,30 @@ padding: 50px;
 }
 
 .contact{
-border: 1px solid black;
-height: 250px;
+
+height: 150px;
+}
+
+.contact h4{
+    color: #7e7f7f;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact i{
+  display: inline-block;
+  color: #e64b1c;
+  background-color: #fceeea;  
+  border-radius: 5px;
+  border: 0.2px solid #e64b1c;
+  padding: 10px;
+}
+
+
+.contact p{
+color: black;
+font-weight: 600;
 }
 
 /* Contact Us Refurbish 
