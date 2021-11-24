@@ -381,7 +381,8 @@ h2.afriheader span{
 
 
 .service p{
-    color: #ffffff;  
+  font-size: 10pt;
+  color: #ffffff; 
 }
 
 .service1{
@@ -398,19 +399,33 @@ h2.afriheader span{
 
 
 .service2 img{
-
+  background-color: #dbe7ff;
 }
 
 .service2 h2{
-    
+    color: black;
 }
 
-.service2 h2{
-    
+.service2 p{
+    color: black;
 }
 
 .service3{
    background-color: #c1fdff; 
+}
+
+
+.service3 img{
+    background-color:#d5fbff;
+  }
+
+.service3 h2{
+    color: black;
+}
+
+.service3 p{
+    color: black;
+
 }
 
 
