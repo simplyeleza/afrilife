@@ -659,6 +659,41 @@ position: relative;
     text-align: center;
 } */
 
+
+
+/*  Footer */
+
+#footer{
+background-color: #01b3cd;
+padding: 25px;
+height: 200px;
+}
+
+.foot{
+    position: relative;
+    border: 1px solid red;
+}
+
+.foot .subhead img{
+ width: 50px;
+}
+
+
+.footlogo{
+ position: relative;
+  border: 3px solid black;
+}
+
+.socialIcons{
+
+    border: 1px solid black;
+}
+
+.foot i{
+    color: #ffffff;
+    font-size: 20pt;
+    border: 1px solid black;
+}
 .googleMap{
     padding: 0px;
 }
