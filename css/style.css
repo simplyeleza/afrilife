@@ -351,6 +351,68 @@ h2.afriheader span{
    margin-top: 10px; 
 }
 
+/* Services */
+
+#services{
+
+}
+
+
+.service{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+
+.service img{
+ width: 50px; 
+
+ border-radius: 5px;
+ padding: 10px; 
+}
+
+
+.service h2{
+   font-size: 14pt; 
+   color: #ffffff;
+}
+
+
+.service p{
+    color: #ffffff;  
+}
+
+.service1{
+ background-color: #ae34ff;
+}
+
+.service1 img{
+  background-color: #c36aff;
+}
+
+.service2{
+   background-color: #d2e1ff; 
+}
+
+
+.service2 img{
+
+}
+
+.service2 h2{
+    
+}
+
+.service2 h2{
+    
+}
+
+.service3{
+   background-color: #c1fdff; 
+}
+
 
 
 /* Doctors */
