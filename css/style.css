@@ -671,28 +671,50 @@ height: 200px;
 
 .foot{
     position: relative;
-    border: 1px solid red;
+   
 }
 
-.foot .subhead img{
+
+
+
+.footlogo{
+ 
+}
+
+
+
+.footlogo img{
  width: 50px;
 }
 
 
-.footlogo{
- position: relative;
-  border: 3px solid black;
+
+.footlogo h2{
+ font-size: 14pt;
+ display: inline-block;
+}
+
+.foot ul {
+   
+    margin-top: 15px;
+    padding: 0px;
+}
+
+
+.foot ul li{
+    display: inline;
+    margin: 5px;
 }
 
 .socialIcons{
 
-    border: 1px solid black;
+    
 }
 
 .foot i{
     color: #ffffff;
-    font-size: 20pt;
-    border: 1px solid black;
+    font-size: 15pt;
+  
 }
 .googleMap{
     padding: 0px;
