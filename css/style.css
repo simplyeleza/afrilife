@@ -71,7 +71,7 @@ div.row.mainBox {
 
 
 #doctor img {
-    width: 400px;
+    width: 500px;
     z-index: 2000;
     margin-left: 20px;
 
@@ -198,7 +198,7 @@ padding: 50px;
 }**/
 
 #aboutUs img{
-    width: 100%;
+    width: 120%;
 }
 
 #aboutUs p{
