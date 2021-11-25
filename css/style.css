@@ -550,6 +550,8 @@ padding: 50px;
 
 
 
+
+
 /* Contact Last code  */
 
 .contacts{
@@ -1023,6 +1025,77 @@ div #joshua{
      padding: 10px;
      color: #707070;
     }
+
+
+
+
+    /* testimonials mobile */
+
+    #testimonials{
+
+    height: 500px;
+    padding: 50px;
+    }
+    
+    #testimonials img{
+     width: 100px;
+    }
+    
+    
+    #testimonials h3{
+      color: #000000;
+      font-size: 12pt;
+    }
+    
+    
+    #testimonials p{
+
+        color: #000000;
+    }
+    
+    .carousel-inner{
+        
+        background-color:#f9f9f9;
+        height: 300px;
+        padding: 20px;
+    }
+
+    .carousel-inner .item{
+
+       margin-top: 100px;
+    }
+    
+    
+    .carousel-indicators .active{
+        position: relative;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 40px;
+        height: 10px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        background-color: #ae34ff;
+    }
+    
+    .carousel-indicators li{
+        background-color: #a71314;
+    }
+    
+    .carousel-indicators li {
+        position: relative;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 40px;
+        height: 10px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        background-color:#c36aff;
+    }
+    
     
     
     
