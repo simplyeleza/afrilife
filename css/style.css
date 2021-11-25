@@ -745,36 +745,154 @@ height: 200px;
 
 @media only screen and (max-width : 480px) {
 
-    #rama img {
-        display: none;
+    
+    /*** Mobile Navigation ***/
+
+    .subhead img{
+        width: 50px;
+        z-index: 20 !important;
+    }
+    
+    #collapse{
+
     }
 
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
 
-
-    #slogan h2 {
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-        font-size: 220%;
-        font-weight: 400;
-        text-align: center;
-        margin-top: 10px;
+        background-color: #01b3cd;
+        z-index: 1200 !important;
     }
-
-    #mockUp {
+    
+    
+    
+    
+    /*** Mobile main Stuff ***/
+    
+    
+    #mainStuff {
         position: relative;
-        margin-top: 10px;
+        height: 200px;
+        padding: 0px;
+    
+    }
+
+    .mainBox{
+        border: 3px solid red;
+    }
+    
+    #doctor{
+        border: 1px solid white;
+    }
+
+    #slogan{
+     display: none;
+     border: 1px solid white;
+    }
+    #doctor img {
+        width: 200px;
     }
 
 
-    br.mobNone {
-        display: none;
-    }
-
-    #mockUp img {
-        width: 500px;
+    #mockUp{
+        border: 1px solid white;
     }
 
 
+    #mockUp{
 
+
+    }
+
+
+    #mockUp h2{
+        margin-top: 7px;
+        font-size: 18px;
+        
+    }
+    
+    
+    #mockUp h2 span{
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
+    
+    #mockUp button {
+    
+        color: #FFFFFF;
+        width: 150px;
+        line-height: 15px;
+        padding: 13px 16px;
+        text-transform: uppercase;
+        font-size: 20px;
+        border-radius: 50px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        /**margin: 0px auto 0px auto;**/
+        margin-top: 50px;
+        transition: all .5s ease;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        border: 2px solid #FFFFFF;
+        background-color:#e64b1c;
+    }
+
+
+  /*** Mobile social proof ***/
+
+  #proofCont{
+
+    
+    padding: 15px;
+    }
+    
+    div#socialProof {
+        background-color: #a71314;
+        }
+    
+    div#socialProof img{
+    width: 50px;
+    }
+    
+    .proof span{
+        color: #ffffff;
+    }
+
+
+    /* Why Us Mobile */
+#whyUs{
+    padding: 30px;
+    }
+    
+    .why{
+        border: 1px solid black;
+        margin-left: 5px;
+        margin-top:20px ;
+        padding: 20px;
+        border-radius: 5px;
+        height: 250px;
+    }
+    
+    
+   
+    
+    
+    
+   
+    .why1{
+     background-color: #f6beac;
+     background-image: url("../images/whyOne.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+    }
+    
+    .why2{
+        background-image: url("../images/whytwo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
 
 }
