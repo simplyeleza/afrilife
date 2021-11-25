@@ -892,6 +892,86 @@ height: 200px;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+
+    /* Services Mobile */
+
+#services{
+
+}
+
+
+.service{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+.service img{
+ width: 50px; 
+ border-radius: 5px;
+ padding: 10px; 
+}
+
+
+.service h2{
+   font-size: 14pt; 
+   color: #ffffff;
+}
+
+
+.service p{
+  font-size: 10pt;
+  color: #ffffff; 
+}
+
+.service1{
+ background-color: #ae34ff;
+}
+
+.service1 img{
+  background-color: #c36aff;
+}
+
+.service2{
+   background-color: #d2e1ff; 
+}
+
+
+.service2 img{
+  background-color: #dbe7ff;
+}
+
+.service2 h2{
+    color: black;
+}
+
+.service2 p{
+    color: black;
+}
+
+.service3{
+   background-color: #c1fdff; 
+}
+
+
+.service3 img{
+    background-color:#d5fbff;
+  }
+
+.service3 h2{
+    color: black;
+}
+
+.service3 p{
+    color: black;
+
+}
+
+
     
     
 
