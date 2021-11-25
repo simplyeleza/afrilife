@@ -971,7 +971,60 @@ height: 200px;
 
 }
 
+/* Mobile Doctors styling  */
 
+div #joshua{
+    margin-left: 10px;
+    }
+    
+    
+    
+    div.doctor{
+    
+      margin:10px;
+      padding: 0px;
+      height: 300px;
+      cursor: pointer;
+    }
+    
+    .doctor div{
+    
+    }
+    .doctor img{
+    
+      width: 100px;
+     
+    }
+    
+    
+    .doctor h3#headDoc{
+      color: #01b3cd;
+    }
+    
+    .doctor h3#headDoc span{
+        color:  #707070;
+      }
+    
+    
+    .doctor h3{
+     font-size: 18px;
+     font-weight: 900;
+     text-align: center;
+    }
+    
+    
+    span.occupation{
+        font-size: 11px;
+        font-weight: 500;
+        color: #707070;
+    }
+    
+    .doctor p{
+     padding: 10px;
+     color: #707070;
+    }
+    
+    
     
     
 
