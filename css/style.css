@@ -27,10 +27,18 @@ body {
     width: 100px;
 }
 
+.subhead h2{
+    text-transform: uppercase;
+    display: inline-block;
+    color: #000000;
+    font-weight: 900;
+    font-size: 100%;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: black;
-    font-weight: 300;
-    font-size: 16pt;
+    font-weight: 500;
+    font-size: 15pt;
     background-color: transparent !important;
 }
 
@@ -55,10 +63,15 @@ div.row.mainBox {
     margin-right: 0px;
     margin-left: 0px;
 }
+#doctor{
+    /**  background-image: url("../images/home.png"); **/
+      background-repeat:no-repeat;
+      background-size: contain;
+}
 
 
 #doctor img {
-    width: 400px;
+    width: 500px;
     z-index: 2000;
     margin-left: 20px;
 
@@ -78,6 +91,7 @@ div.row.mainBox {
 #mockUp {
     position: relative;
     margin-top: 70px;
+  
 }
 
 #mockUp h2{
@@ -141,6 +155,10 @@ a#icon {
 }
 
 
+#mockUp a{
+    color: #ffffff;
+}
+
 
 /* Social Proof */
 #proofCont{
@@ -168,13 +186,23 @@ width: 80px;
 padding: 50px;
 }
 
+/**
 #aboutUs h2{
-   text-align: center;
+   text-align: left;
    margin-bottom: 50px;
-}
+   font-weight: 900;
+} 
+
+#aboutUs h2 span{
+  display: block;  
+  width: 90px;
+  height: 5px;
+  background-color: #01b3cd;
+  margin-top: 10px;
+}**/
 
 #aboutUs img{
-    width: 80%;
+    width: 120%;
 }
 
 #aboutUs p{
@@ -240,6 +268,49 @@ padding: 30px;
 }
 
 .why{
+    border: 1px solid black;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+}
+
+
+.why p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.why ul li{
+    list-style-type:none;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+
+.why ul li i{
+    color:#ffffff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.why1{
+
+ background-image: url("../images/whyOne.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.why2{
+    background-image: url("../images/whytwo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.why{
    
     margin: 0px auto 0px auto;
     border: 2px solid grey;
@@ -262,10 +333,263 @@ padding: 30px;
 
 .why p{
 
+} */
+
+
+
+/*  Afri headers */
+
+h2.afriheader{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 900;
 }
 
 
-/* Contact Us Refurbish */
+
+h2.afriheader span{
+    display: block;  
+   width: 90px;
+   height: 5px;
+   background-color: #01b3cd;
+   margin-top: 10px; 
+}
+
+/* Services */
+
+#services{
+
+}
+
+
+.service{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+
+.service img{
+ width: 50px; 
+
+ border-radius: 5px;
+ padding: 10px; 
+}
+
+
+.service h2{
+   font-size: 14pt; 
+   color: #ffffff;
+}
+
+
+.service p{
+  font-size: 10pt;
+  color: #ffffff; 
+}
+
+.service1{
+ background-color: #ae34ff;
+}
+
+.service1 img{
+  background-color: #c36aff;
+}
+
+.service2{
+   background-color: #d2e1ff; 
+}
+
+
+.service2 img{
+  background-color: #dbe7ff;
+}
+
+.service2 h2{
+    color: black;
+}
+
+.service2 p{
+    color: black;
+}
+
+.service3{
+   background-color: #c1fdff; 
+}
+
+
+.service3 img{
+    background-color:#d5fbff;
+  }
+
+.service3 h2{
+    color: black;
+}
+
+.service3 p{
+    color: black;
+
+}
+
+
+
+/* Doctors */
+
+div #joshua{
+margin-left: 0px;
+}
+
+
+
+div.doctor{
+  border: 0.5px solid  #707070;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 5px;
+  margin:20px;
+  padding: 0px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.doctor div{
+ background-color:#ffffff;
+ text-align: center;
+ border-radius: 5px;
+}
+.doctor img{
+
+  width: 150px;
+ 
+}
+
+
+.doctor h3#headDoc{
+  color: #01b3cd;
+}
+
+.doctor h3#headDoc span{
+    color:  #707070;
+  }
+
+
+.doctor h3{
+ font-size: 18px;
+ font-weight: 900;
+ text-align: center;
+}
+
+
+span.occupation{
+    font-size: 11px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.doctor p{
+ padding: 10px;
+ color: #707070;
+}
+
+
+/* testimonials */
+
+#testimonials{
+
+height: 500px;
+padding: 50px;
+}
+
+#testimonials img{
+ width: 200px;
+}
+
+
+#testimonials h3{
+  color: #000000;
+}
+
+
+#testimonials p{
+    color: #000000;
+}
+
+.carousel-inner{
+    
+    background-color:#f9f9f9;
+    height: 300px;
+    padding: 20px;
+}
+
+
+.carousel-indicators .active{
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 40px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: #ae34ff;
+}
+
+.carousel-indicators li{
+    background-color: #a71314;
+}
+
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 40px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color:#c36aff;
+}
+
+
+
+
+
+/* Contact Last code  */
+
+.contacts{
+
+}
+
+.contact{
+
+height: 150px;
+}
+
+.contact h4{
+    color: #7e7f7f;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact i{
+  display: inline-block;
+  color: #e64b1c;
+  background-color: #fceeea;  
+  border-radius: 5px;
+  border: 0.2px solid #e64b1c;
+  padding: 10px;
+}
+
+
+.contact p{
+color: black;
+font-weight: 600;
+}
+
+/* Contact Us Refurbish 
 
 #contactUs{
     background-color: #01b3cd;
@@ -283,7 +607,7 @@ div.contact{
 }
 
 div.contact h3{
-    color: #00000;
+    color: #000000;
 }
 
 
@@ -294,7 +618,7 @@ div.contact ul{
 
 div.contact li{
 list-style-type: none;
- color: #00000;
+ color: #000000;
  margin-bottom: 5px;
 }
 
@@ -311,7 +635,7 @@ div.contact button{
 
 }
 
-
+*/
 
 /* Contact Us 
 
@@ -361,6 +685,63 @@ position: relative;
     text-align: center;
 } */
 
+
+
+/*  Footer */
+
+#footer{
+background-color: #01b3cd;
+padding: 25px;
+height: 200px;
+}
+
+.foot{
+    position: relative;
+   
+}
+
+
+
+
+.footlogo{
+ 
+}
+
+
+
+.footlogo img{
+ width: 50px;
+}
+
+
+
+.footlogo h2{
+ font-size: 14pt;
+ display: inline-block;
+}
+
+.foot ul {
+   
+    margin-top: 15px;
+    padding: 0px;
+}
+
+
+.foot ul li{
+    display: inline;
+    margin: 5px;
+}
+
+.socialIcons{
+
+    
+}
+
+.foot i{
+    color: #ffffff;
+    font-size: 15pt;
+  
+}
 .googleMap{
     padding: 0px;
 }
@@ -370,36 +751,417 @@ position: relative;
 
 @media only screen and (max-width : 480px) {
 
-    #rama img {
-        display: none;
+    
+    /*** Mobile Navigation ***/
+
+    .subhead img{
+        width: 50px;
+        z-index: 20 !important;
+    }
+    
+    #collapse{
+
     }
 
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
 
-
-    #slogan h2 {
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-        font-size: 220%;
-        font-weight: 400;
-        text-align: center;
-        margin-top: 10px;
+        background-color: #01b3cd;
+        z-index: 1200 !important;
+    }
+    
+    .navbar-brand{
+        padding: 0px;
     }
 
-    #mockUp {
+    #kichwa{
+        height: 70px;
+    }
+    
+    
+    /*** Mobile main Stuff ***/
+    
+    
+    #mainStuff {
         position: relative;
+        height: 200px;
+        padding: 0px;
+        z-index: -5;
+    
+    }
+
+    .mainBox{
+        position: relative;
+        padding: 10px;
+    }
+    
+    #doctor{
+       
+        padding: 0px;
+    }
+
+    #slogan{
+     display: none;
+     
+    }
+    #doctor img {
+       
+        width: 250px;
+        margin-left: 0px;
+    }
+
+
+    #mockUp{
+ 
         margin-top: 10px;
     }
 
 
-    br.mobNone {
-        display: none;
-    }
+    #mockUp{
 
-    #mockUp img {
-        width: 500px;
+
     }
 
 
+    #mockUp h2{
+        margin-top: 7px;
+        font-size: 18px;
+        
+    }
+    
+    
+    #mockUp h2 span{
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 500;
+        margin-top: 10px;
+        display: inline-block;
+    }
+    
+    
+    #mockUp button {
+    
+        color: #FFFFFF;
+        width: 150px;
+        line-height: 15px;
+        padding: 13px 16px;
+        text-transform: uppercase;
+        font-size: 12px;
+        border-radius: 50px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        /**margin: 0px auto 0px auto;**/
+        margin-top: 50px;
+        transition: all .5s ease;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        border: 2px solid #FFFFFF;
+        background-color:#e64b1c;
+    }
+
+
+    #mockUp a{
+        color: #ffffff;
+    }
+
+
+  /*** Mobile social proof ***/
+
+  #proofCont{
+
+    
+    padding: 15px;
+    }
+    
+    div#socialProof {
+        background-color: #a71314;
+        }
+    
+    div#socialProof img{
+    width: 50px;
+    }
+    
+    .proof span{
+        color: #ffffff;
+    }
+
+
+    /* Why Us Mobile */
+#whyUs{
+    padding: 30px;
+    }
+    
+    .why{
+        border: 1px solid black;
+        margin-left: 5px;
+        margin-top:20px ;
+        padding: 20px;
+        border-radius: 5px;
+        height: 250px;
+    }
+    
+    
+   
+    
+    
+    
+   
+    .why1{
+     background-color: #f6beac;
+     background-image: url("../images/whyOne.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+    }
+    
+    .why2{
+        background-image: url("../images/whytwo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    /* Services Mobile */
+
+#services{
+
+}
+
+
+.service{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+.service img{
+ width: 50px; 
+ border-radius: 5px;
+ padding: 10px; 
+}
+
+
+.service h2{
+   font-size: 14pt; 
+   color: #ffffff;
+}
+
+
+.service p{
+  font-size: 10pt;
+  color: #ffffff; 
+}
+
+.service1{
+ background-color: #ae34ff;
+}
+
+.service1 img{
+  background-color: #c36aff;
+}
+
+.service2{
+   background-color: #d2e1ff; 
+}
+
+
+.service2 img{
+  background-color: #dbe7ff;
+}
+
+.service2 h2{
+    color: black;
+}
+
+.service2 p{
+    color: black;
+}
+
+.service3{
+   background-color: #c1fdff; 
+}
+
+
+.service3 img{
+    background-color:#d5fbff;
+  }
+
+.service3 h2{
+    color: black;
+}
+
+.service3 p{
+    color: black;
+
+}
+
+/* Mobile Doctors styling  */
+
+div #joshua{
+    margin-left: 10px;
+    }
+    
+    
+    
+    div.doctor{
+    
+      margin:10px;
+      padding: 0px;
+      height: 300px;
+      cursor: pointer;
+    }
+    
+    .doctor div{
+    
+    }
+    .doctor img{
+    
+      width: 100px;
+     
+    }
+    
+    
+    .doctor h3#headDoc{
+      color: #01b3cd;
+    }
+    
+    .doctor h3#headDoc span{
+        color:  #707070;
+      }
+    
+    
+    .doctor h3{
+     font-size: 18px;
+     font-weight: 900;
+     text-align: center;
+    }
+    
+    
+    span.occupation{
+        font-size: 11px;
+        font-weight: 500;
+        color: #707070;
+    }
+    
+    .doctor p{
+     padding: 10px;
+     color: #707070;
+    }
+
+
+
+
+    /* testimonials mobile */
+
+    #testimonials{
+
+    height: 500px;
+    padding: 50px;
+    }
+    
+    #testimonials img{
+     width: 100px;
+    }
+    
+    
+    #testimonials h3{
+      color: #000000;
+      font-size: 12pt;
+    }
+    
+    
+    #testimonials p{
+
+        color: #000000;
+    }
+    
+    .carousel-inner{
+        
+        background-color:#f9f9f9;
+        height: 300px;
+        padding: 20px;
+    }
+
+    .carousel-inner .item{
+
+       margin-top: 100px;
+    }
+    
+    
+    .carousel-indicators .active{
+        position: relative;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 40px;
+        height: 10px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        background-color: #ae34ff;
+    }
+    
+    .carousel-indicators li{
+        background-color: #a71314;
+    }
+    
+    .carousel-indicators li {
+        position: relative;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 40px;
+        height: 10px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        background-color:#c36aff;
+    }
+    
+    
+    
+    
+    
+
+}
+
+
+
+/* Ipads */
+
+
+@media only screen and (max-width : 768px) {
+
+
+     
+/* navigation ipad */
+    .subhead img {
+        width: 50px;
+        
+    }
+
+    .subhead h2{
+        font-size: 80%;
+    }
+
+
+    /* why us ipad */
+
+    .why{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+     /* services  ipad */
+
+     .service{
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 20px;
+    }
 
 
 }
