@@ -1125,3 +1125,43 @@ div #joshua{
     
 
 }
+
+
+
+/* Ipads */
+
+
+@media only screen and (max-width : 768px) {
+
+
+     
+/* navigation ipad */
+    .subhead img {
+        width: 50px;
+        
+    }
+
+    .subhead h2{
+        font-size: 80%;
+    }
+
+
+    /* why us ipad */
+
+    .why{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+     /* services  ipad */
+
+     .service{
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+
+}
