@@ -783,7 +783,7 @@ height: 200px;
     
     #mainStuff {
         position: relative;
-        height: 200px;
+        height: 230px;
         padding: 0px;
         z-index: -5;
     
@@ -805,7 +805,7 @@ height: 200px;
     }
     #doctor img {
        
-        width: 250px;
+        width: 280px;
         margin-left: 0px;
     }
 
@@ -1067,13 +1067,14 @@ div #joshua{
     
     #testimonials h3{
       color: #000000;
-      font-size: 12pt;
+      font-size: 11pt;
     }
     
     
     #testimonials p{
 
         color: #000000;
+        
     }
     
     .carousel-inner{
